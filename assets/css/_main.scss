@@ -1,0 +1,124 @@
+@import "../../bower_components/susy/sass/susy";
+$susy: (
+  columns: 18,
+  container: 100%,
+  gutter-position: split,
+  global-box-sizing: border-box,
+  gutters: 0
+  );
+
+
+  * {
+      box-sizing: border-box;
+  }
+
+#main-wrapper{
+  @include container;
+  @include span(18 of 18);
+
+}
+
+.main-header{
+    @include span(18 of 18);
+    min-height: 100vh;
+    position:relative;
+    background: url("../images/macbook.jpeg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    // margin-bottom: 9em;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-delay: 1.5s;
+
+      .arrow{
+
+        font-size: 1em;
+        color: #dad7d7;
+        position: absolute;
+        display: block;
+        margin-top: 1em;
+        margin-left: -2em;
+        width: 0em;
+
+      }
+
+  h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 3em;
+    color: #dad7d7;
+    // height: 11em;
+    margin-top: -2em;
+    position: absolute;
+    width: 7em;
+    padding-left: 2em;
+
+}
+.divider{
+  height: .06em;
+  background: #dad7d7;
+  position: relative;
+  margin-top: 13em;
+  margin-bottom: -13em;
+  width: 16em;
+  margin-left: 5em;
+}
+  h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 3em;
+    color: #dad7d7;
+    height: 11em;
+    margin-top: 4.5em;
+    position: absolute;
+    width: 7em;
+    padding-left: 2em;
+  }
+}
+
+.contact {
+  @include span(18 of 18);
+  font-size: 4em;
+  color: #dad7d7;
+  position: absolute;
+  display: block;
+  margin-top: 9.7em;
+  margin-left: 15em;
+  width: 4em;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-delay: 1.5s;
+  text-decoration: none;
+
+  .fa{
+      color:#dad7d7;
+      cursor: pointer;
+  }
+  p{
+    font-family: 'Raleway', sans-serif;
+    font-size: .4em;
+    position: relative;
+    margin-top: 0.4em;
+    margin-left: -0.2em;
+    animation-play-state: paused;
+    width: 5em;
+    &:hover{
+
+      -webkit-animation-duration: 1.5s;
+      // -webkit-animation-delay: 1.5s;
+      animation-play-state: running;
+
+    }
+  }
+  a{
+    color:#dad7d7;
+    text-decoration: none;
+  }
+}
+
+.divider-2{
+  height: .01em;
+  background: #dad7d7;
+  position: relative;
+  margin-top: 0.1em;
+  width: 2em;
+  margin-left: -.2em;
+}

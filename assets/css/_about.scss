@@ -1,7 +1,7 @@
 @import "../../bower_components/susy/sass/susy";
 $susy: (
-  columns: 12,
-  container: 1120px,
+  columns: 18,
+  container: 100%,
   gutter-position: split,
   global-box-sizing: border-box,
   gutters: 0
@@ -12,119 +12,64 @@ $susy: (
       box-sizing: border-box;
   }
 
-#wrapper{
+#about-wrapper{
   @include container;
-  @include span(12 of 12);
+  @include span(18 of 18);
 
 }
 
 .about-header{
-    @include span(12 of 12);
-    min-height: 100vh;
-    position:relative;
-    background: url("../images/macbook.jpeg");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    margin-bottom: 9em;
-    -webkit-animation-duration: 3s;
-    -webkit-animation-delay: 1.5s;
-
-      .arrow{
-
-        font-size: 1em;
-        color: #dad7d7;
-        position: absolute;
-        display: block;
-        margin-top: 1em;
-        margin-left: -2em;
-        width: 0em;
-
-      }
-
-  h1{
-    font-family: 'Raleway', sans-serif;
-    font-size: 3em;
-    color: #dad7d7;
-    // height: 11em;
-    margin-top: -2em;
-    position: absolute;
-    width: 7em;
-    padding-left: 2em;
-
-}
-.divider{
-  height: .06em;
-  background: #dad7d7;
-  position: relative;
-  margin-top: 13em;
-  margin-bottom: -12em;
-  width: 18em;
-  margin-left: 4em;
-}
-  h2{
-    font-family: 'Raleway', sans-serif;
-    font-size: 3em;
-    color: #dad7d7;
-    height: 11em;
-    margin-top: 4.5em;
-    position: absolute;
-    width: 7em;
-    padding-left: 2em;
-  }
+  @include span(18 of 18);
+  min-height: 100vh;
+  position:relative;
+  background: url("../images/macbook.jpeg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  // margin-bottom: 9em;
 }
 
-.contact {
-  font-size: 4em;
-  color: #dad7d7;
-  position: absolute;
-  display: block;
-  margin-top: 9.7em;
-  margin-left: 17em;
-  width: 1em;
-  -webkit-animation-duration: 3s;
-  -webkit-animation-delay: 1.5s;
-  text-decoration: none;
-  .fa{
-      color:#dad7d7;
-  }
-  p{
-    font-family: 'Raleway', sans-serif;
-    font-size: .6em;
-    position: absolute;
-    margin-top: -1.3em;
-    margin-left: -3.2em;
-    animation-play-state: paused;
-    &:hover{
-
-      -webkit-animation-duration: 1.5s;
-      // -webkit-animation-delay: 1.5s;
-      animation-play-state: running;
-
-    }
-  }
+.about-cover{
+  @include span(18 of 18);
+  min-height: 100vh;
+  position:relative;
+  background: rgba(181, 173, 173, 0.74);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
-
-
 
 .about-main{
-  @include span(5 of 12);
   h1{
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.55em;
-    margin-top: 21em;
-    margin-left: 5em;
-    width: 22em;
-  }
-
-  img{
-    height: 21em;
+    font-family: 'Raleway';
     position: absolute;
-    margin: -18em 0em 0em 52em;
+    display: block;
+    width: 24em;
+    font-size: 1.6em;
+    margin: 8em 0 0em 2em;
+    background: rgba(218, 215, 215, 0.4);
+    border-radius: 1%;
+    height: 11em;
+    padding: 1.3em
+  }
+  img{
+    position: absolute;
+    height: 30em;
+    margin-left: -32em;
+    margin-top: 5em;
     border-radius: 2%;
-    -webkit-box-shadow: 0px 0px 19px -2px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 0px 19px -2px rgba(0,0,0,0.75);
-    box-shadow: 0px 0px 19px -2px rgba(0,0,0,0.75);
-    }
+    -webkit-box-shadow: 0px 0px 38px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 38px -4px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 38px -4px rgba(0,0,0,0.75);
+  }
+}
+
+.arrow{
+  font-size: 1em;
+  color: #dad7d7;
+  position: absolute;
+  left: -13.8em;
+  top: 1.1em;
 }

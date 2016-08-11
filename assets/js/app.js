@@ -11,7 +11,7 @@ mainApp.config(function($routeProvider){
     templateUrl: 'assets/pages/main.html'
   })
   .otherwise({
-    redirectTo: '/about'
+    redirectTo: '/main'
   });
 
 });

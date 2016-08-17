@@ -10,6 +10,9 @@ mainApp.config(function($routeProvider){
   .when( '/main',{
     templateUrl: 'assets/pages/main.html'
   })
+  .when( '/portfolio',{
+    templateUrl: 'assets/pages/portfolio.html'
+  })
   .otherwise({
     redirectTo: '/main'
   });

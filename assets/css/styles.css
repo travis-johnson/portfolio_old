@@ -43,18 +43,18 @@ body {
   font-family: 'Raleway';
   position: absolute;
   display: block;
-  width: 24em;
-  font-size: 1.6em;
-  margin: 8em 0 0em 2em;
+  width: 45%;
+  font-size: 1.4em;
+  margin: 7% 0 0em 6%;
   background: rgba(218, 215, 215, 0.4);
   border-radius: 1%;
-  height: 11em;
-  padding: 1.3em; }
+  height: 51%;
+  padding: 1.3%; }
 .about-main img {
   position: absolute;
   height: 30em;
-  margin-left: -32em;
-  margin-top: 5em;
+  margin-left: -36%;
+  margin-top: 5%;
   border-radius: 2%;
   -webkit-box-shadow: 0px 0px 38px -4px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 0px 38px -4px rgba(0, 0, 0, 0.75);
@@ -64,8 +64,49 @@ body {
   font-size: 1em;
   color: #dad7d7;
   position: absolute;
-  left: -13.8em;
+  left: -1.8em;
   top: 1.1em; }
+
+.contact-about {
+  font-size: 3.5em;
+  color: #dad7d7;
+  position: fixed;
+  display: block;
+  margin-top: 40%;
+  margin-left: 65%;
+  width: 15%;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-delay: 1.5s;
+  text-decoration: none; }
+  .contact-about .fa {
+    color: #dad7d7;
+    cursor: pointer; }
+    .contact-about .fa:hover {
+      color: #81D6E3; }
+  .contact-about p {
+    font-family: 'Raleway', sans-serif;
+    font-size: .4em;
+    position: relative;
+    margin-top: 0.44%;
+    margin-left: -2.2%;
+    animation-play-state: paused;
+    width: 5em;
+    line-height: 1.4; }
+    .contact-about p:hover {
+      color: #81D6E3;
+      -webkit-animation-duration: 1.5s;
+      animation-play-state: running; }
+  .contact-about a {
+    color: #dad7d7;
+    text-decoration: none; }
+
+.divider-2-about {
+  height: .01em;
+  background: #dad7d7;
+  position: absolute;
+  margin-top: 0.5%;
+  width: 2em;
+  margin-left: -4.5%; }
 
 * {
   box-sizing: border-box; }
@@ -105,27 +146,26 @@ body {
     font-family: 'Raleway', sans-serif;
     font-size: 3em;
     color: #dad7d7;
-    margin-top: -2em;
+    margin-top: -8%;
     position: absolute;
     width: 7em;
-    padding-left: 2em; }
+    padding-left: 7%; }
   .main-header .divider {
     height: .06em;
     background: #dad7d7;
     position: relative;
-    margin-top: 13em;
-    margin-bottom: -13em;
+    margin-top: 16%;
+    margin-bottom: -14%;
     width: 16em;
-    margin-left: 5em; }
+    margin-left: 6%; }
   .main-header h2 {
     font-family: 'Raleway', sans-serif;
     font-size: 3em;
     color: #dad7d7;
-    height: 11em;
-    margin-top: 4.5em;
+    margin-top: 15%;
     position: absolute;
     width: 7em;
-    padding-left: 2em; }
+    margin-left: 7%; }
 
 .contact {
   width: 100%;
@@ -134,8 +174,8 @@ body {
   color: #dad7d7;
   position: absolute;
   display: block;
-  margin-top: 9.7em;
-  margin-left: 15em;
+  margin-top: 37%;
+  margin-left: 75%;
   width: 4em;
   -webkit-animation-duration: 3s;
   -webkit-animation-delay: 1.5s;
@@ -143,15 +183,18 @@ body {
   .contact .fa {
     color: #dad7d7;
     cursor: pointer; }
+    .contact .fa:hover {
+      color: #81D6E3; }
   .contact p {
     font-family: 'Raleway', sans-serif;
     font-size: .4em;
     position: relative;
-    margin-top: 0.4em;
+    margin-top: 0.2em;
     margin-left: -0.2em;
     animation-play-state: paused;
     width: 5em; }
     .contact p:hover {
+      color: #81D6E3;
       -webkit-animation-duration: 1.5s;
       animation-play-state: running; }
   .contact a {
@@ -165,5 +208,121 @@ body {
   margin-top: 0.1em;
   width: 2em;
   margin-left: -.2em; }
+
+* {
+  box-sizing: border-box; }
+
+#pf-wrapper {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  float: left; }
+  #pf-wrapper:after {
+    content: " ";
+    display: block;
+    clear: both; }
+
+.pf-header {
+  width: 100%;
+  float: left;
+  min-height: 100vh;
+  position: absolute;
+  background: url("../images/macbook.jpeg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+.pf-cover {
+  width: 100%;
+  float: left;
+  min-height: 100vh;
+  position: relative;
+  background: rgba(181, 173, 173, 0.74);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+.project1 img {
+  position: absolute;
+  display: block;
+  height: 18em;
+  margin: 1% 0% 0% 11%;
+  -webkit-box-shadow: 0px 0px 38px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 38px -4px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 38px -4px rgba(0, 0, 0, 0.75); }
+.project1 p {
+  position: absolute;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.3em;
+  width: 44%;
+  margin: 3% 2% 2% 27.5%;
+  height: 29.4%;
+  background: rgba(218, 215, 215, 0.4);
+  border-radius: 1%; }
+.project1 h1 {
+  position: absolute;
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.9em;
+  margin: 12% 4% 5% 28.7%; }
+
+.project2 img {
+  position: absolute;
+  display: block;
+  height: 18em;
+  margin: 25.5% 0% 0% 11%;
+  -webkit-box-shadow: 0px 0px 38px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 38px -4px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 38px -4px rgba(0, 0, 0, 0.75); }
+.project2 p {
+  position: absolute;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.3em;
+  width: 30em;
+  margin: 26% 0% 0% 27.4%;
+  height: 38%;
+  background: rgba(218, 215, 215, 0.4);
+  border-radius: 1%; }
+.project2 h1 {
+  position: absolute;
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.9em;
+  margin: 41% 0% 0% 28.6%; }
+
+.contact-pf {
+  width: 100%;
+  float: left;
+  font-size: 3.5em;
+  color: #dad7d7;
+  position: absolute;
+  display: block;
+  margin-top: 37.6%;
+  margin-left: 84%;
+  width: 4em;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-delay: 1.5s;
+  text-decoration: none; }
+  .contact-pf .fa {
+    color: #dad7d7;
+    cursor: pointer; }
+    .contact-pf .fa:hover {
+      color: #81D6E3; }
+  .contact-pf p {
+    font-family: 'Raleway', sans-serif;
+    font-size: .4em;
+    position: relative;
+    margin-top: 0.4em;
+    margin-left: -0.2em;
+    animation-play-state: paused;
+    width: 5em; }
+    .contact-pf p:hover {
+      color: #81D6E3;
+      -webkit-animation-duration: 1.5s;
+      animation-play-state: running; }
+  .contact-pf a {
+    color: #dad7d7;
+    text-decoration: none; }
 
 /*# sourceMappingURL=styles.css.map */

@@ -469,6 +469,530 @@ body {
   width: 2em;
   margin-left: -0.2em; }
 
+@media screen and (min-width: 300px) and (max-width: 400px) {
+  .main-header {
+    width: 100%;
+    float: left;
+    min-height: 100vh;
+    position: relative;
+    background: url("../images/macbook.jpeg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-delay: 1.5s;
+    height: 131em;
+    min-width: 71em; }
+    .main-header .arrow {
+      font-size: 1em;
+      color: #dad7d7;
+      position: absolute;
+      display: block;
+      margin-top: 1em;
+      margin-left: -2em;
+      width: 0em; }
+    .main-header h1 {
+      font-family: 'Raleway', sans-serif;
+      font-size: 14em;
+      color: #dad7d7;
+      margin-top: 1em;
+      position: absolute;
+      width: 3em;
+      margin-left: .4em; }
+    .main-header .divider {
+      height: .06em;
+      background: #dad7d7;
+      position: absolute;
+      margin-top: 50em;
+      /* margin-bottom: 7em; */
+      width: 65em;
+      margin-left: 6%; }
+    .main-header h2 {
+      font-family: 'Raleway', sans-serif;
+      font-size: 13em;
+      color: #dad7d7;
+      margin-top: 4.5em;
+      position: absolute;
+      width: 5em;
+      margin-left: .4em; }
+
+  .contact {
+    width: 100%;
+    float: left;
+    font-size: 11em;
+    color: #dad7d7;
+    position: fixed;
+    display: block;
+    margin-top: 8.5em;
+    margin-left: 2em;
+    width: 12em;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-delay: 1.5s;
+    text-decoration: none; }
+    .contact .fa {
+      color: #dad7d7;
+      cursor: pointer; }
+      .contact .fa:hover {
+        color: #81D6E3; }
+    .contact p {
+      font-family: 'Raleway', sans-serif;
+      font-size: .4em;
+      position: relative;
+      margin-top: 0.2em;
+      margin-left: -0.2em;
+      animation-play-state: paused;
+      width: 5em; }
+      .contact p:hover {
+        color: #81D6E3;
+        -webkit-animation-duration: 1.5s;
+        animation-play-state: running; }
+    .contact a {
+      color: #dad7d7;
+      text-decoration: none; }
+
+  .divider-2-main {
+    height: .01em;
+    background: #dad7d7;
+    position: relative;
+    margin-top: 0.14em;
+    width: 2em;
+    margin-left: -0.2em; } }
+@media screen and (min-width: 401px) and (max-width: 720px) {
+  .main-header {
+    width: 100%;
+    float: left;
+    min-height: 100vh;
+    position: relative;
+    background: url("../images/macbook.jpeg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-delay: 1.5s; }
+    .main-header .arrow {
+      font-size: 1em;
+      color: #dad7d7;
+      position: absolute;
+      display: block;
+      margin-top: 1em;
+      margin-left: -2em;
+      width: 0em; }
+    .main-header h1 {
+      font-family: 'Raleway', sans-serif;
+      font-size: 3em;
+      color: #dad7d7;
+      margin-top: -8%;
+      position: absolute;
+      width: 7em;
+      padding-left: 7%; }
+    .main-header .divider {
+      height: .06em;
+      background: #dad7d7;
+      position: relative;
+      margin-top: 16%;
+      margin-bottom: -14%;
+      width: 16em;
+      margin-left: 6%; }
+    .main-header h2 {
+      font-family: 'Raleway', sans-serif;
+      font-size: 3em;
+      color: #dad7d7;
+      margin-top: 15%;
+      position: absolute;
+      width: 7em;
+      margin-left: 7%; }
+
+  .contact {
+    width: 100%;
+    float: left;
+    font-size: 4em;
+    color: #dad7d7;
+    position: absolute;
+    display: block;
+    margin-top: 34%;
+    margin-left: 75%;
+    width: 4em;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-delay: 1.5s;
+    text-decoration: none; }
+    .contact .fa {
+      color: #dad7d7;
+      cursor: pointer; }
+      .contact .fa:hover {
+        color: #81D6E3; }
+    .contact p {
+      font-family: 'Raleway', sans-serif;
+      font-size: .4em;
+      position: relative;
+      margin-top: 0.2em;
+      margin-left: -0.2em;
+      animation-play-state: paused;
+      width: 5em; }
+      .contact p:hover {
+        color: #81D6E3;
+        -webkit-animation-duration: 1.5s;
+        animation-play-state: running; }
+    .contact a {
+      color: #dad7d7;
+      text-decoration: none; }
+
+  .divider-2-main {
+    height: .01em;
+    background: #dad7d7;
+    position: relative;
+    margin-top: 0.14em;
+    width: 2em;
+    margin-left: -0.2em; } }
+@media screen and (min-width: 721px) and (max-width: 1280px) {
+  .main-header {
+    width: 100%;
+    float: left;
+    min-height: 100vh;
+    position: relative;
+    background: url("../images/macbook.jpeg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-delay: 1.5s; }
+    .main-header .arrow {
+      font-size: 1em;
+      color: #dad7d7;
+      position: absolute;
+      display: block;
+      margin-top: 1em;
+      margin-left: -2em;
+      width: 0em; }
+    .main-header h1 {
+      font-family: 'Raleway', sans-serif;
+      font-size: 3em;
+      color: #dad7d7;
+      margin-top: -8%;
+      position: absolute;
+      width: 7em;
+      padding-left: 7%; }
+    .main-header .divider {
+      height: .06em;
+      background: #dad7d7;
+      position: relative;
+      margin-top: 16%;
+      margin-bottom: -14%;
+      width: 16em;
+      margin-left: 6%; }
+    .main-header h2 {
+      font-family: 'Raleway', sans-serif;
+      font-size: 3em;
+      color: #dad7d7;
+      margin-top: 15%;
+      position: absolute;
+      width: 7em;
+      margin-left: 7%; }
+
+  .contact {
+    width: 100%;
+    float: left;
+    font-size: 4em;
+    color: #dad7d7;
+    position: absolute;
+    display: block;
+    margin-top: 34%;
+    margin-left: 75%;
+    width: 4em;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-delay: 1.5s;
+    text-decoration: none; }
+    .contact .fa {
+      color: #dad7d7;
+      cursor: pointer; }
+      .contact .fa:hover {
+        color: #81D6E3; }
+    .contact p {
+      font-family: 'Raleway', sans-serif;
+      font-size: .4em;
+      position: relative;
+      margin-top: 0.2em;
+      margin-left: -0.2em;
+      animation-play-state: paused;
+      width: 5em; }
+      .contact p:hover {
+        color: #81D6E3;
+        -webkit-animation-duration: 1.5s;
+        animation-play-state: running; }
+    .contact a {
+      color: #dad7d7;
+      text-decoration: none; }
+
+  .divider-2-main {
+    height: .01em;
+    background: #dad7d7;
+    position: relative;
+    margin-top: 0.14em;
+    width: 2em;
+    margin-left: -0.2em; } }
+@media screen and (min-width: 1281px) and (max-width: 1440px) {
+  .main-header {
+    width: 100%;
+    float: left;
+    min-height: 100vh;
+    position: relative;
+    background: url("../images/macbook.jpeg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-delay: 1.5s; }
+    .main-header .arrow {
+      font-size: 1em;
+      color: #dad7d7;
+      position: absolute;
+      display: block;
+      margin-top: 1em;
+      margin-left: -2em;
+      width: 0em; }
+    .main-header h1 {
+      font-family: 'Raleway', sans-serif;
+      font-size: 3em;
+      color: #dad7d7;
+      margin-top: -8%;
+      position: absolute;
+      width: 7em;
+      padding-left: 7%; }
+    .main-header .divider {
+      height: .06em;
+      background: #dad7d7;
+      position: relative;
+      margin-top: 16%;
+      margin-bottom: -14%;
+      width: 16em;
+      margin-left: 6%; }
+    .main-header h2 {
+      font-family: 'Raleway', sans-serif;
+      font-size: 3em;
+      color: #dad7d7;
+      margin-top: 15%;
+      position: absolute;
+      width: 7em;
+      margin-left: 7%; }
+
+  .contact {
+    width: 100%;
+    float: left;
+    font-size: 4em;
+    color: #dad7d7;
+    position: absolute;
+    display: block;
+    margin-top: 34%;
+    margin-left: 75%;
+    width: 4em;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-delay: 1.5s;
+    text-decoration: none; }
+    .contact .fa {
+      color: #dad7d7;
+      cursor: pointer; }
+      .contact .fa:hover {
+        color: #81D6E3; }
+    .contact p {
+      font-family: 'Raleway', sans-serif;
+      font-size: .4em;
+      position: relative;
+      margin-top: 0.2em;
+      margin-left: -0.2em;
+      animation-play-state: paused;
+      width: 5em; }
+      .contact p:hover {
+        color: #81D6E3;
+        -webkit-animation-duration: 1.5s;
+        animation-play-state: running; }
+    .contact a {
+      color: #dad7d7;
+      text-decoration: none; }
+
+  .divider-2-main {
+    height: .01em;
+    background: #dad7d7;
+    position: relative;
+    margin-top: 0.14em;
+    width: 2em;
+    margin-left: -0.2em; } }
+@media screen and (min-width: 1441px) and (max-width: 1920px) {
+  .main-header {
+    width: 100%;
+    float: left;
+    min-height: 100vh;
+    position: relative;
+    background: url("../images/macbook.jpeg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-delay: 1.5s; }
+    .main-header .arrow {
+      font-size: 1em;
+      color: #dad7d7;
+      position: absolute;
+      display: block;
+      margin-top: 1em;
+      margin-left: -2em;
+      width: 0em; }
+    .main-header h1 {
+      font-family: 'Raleway', sans-serif;
+      font-size: 3em;
+      color: #dad7d7;
+      margin-top: -8%;
+      position: absolute;
+      width: 7em;
+      padding-left: 7%; }
+    .main-header .divider {
+      height: .06em;
+      background: #dad7d7;
+      position: relative;
+      margin-top: 16%;
+      margin-bottom: -14%;
+      width: 16em;
+      margin-left: 6%; }
+    .main-header h2 {
+      font-family: 'Raleway', sans-serif;
+      font-size: 3em;
+      color: #dad7d7;
+      margin-top: 15%;
+      position: absolute;
+      width: 7em;
+      margin-left: 7%; }
+
+  .contact {
+    width: 100%;
+    float: left;
+    font-size: 4em;
+    color: #dad7d7;
+    position: absolute;
+    display: block;
+    margin-top: 34%;
+    margin-left: 75%;
+    width: 4em;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-delay: 1.5s;
+    text-decoration: none; }
+    .contact .fa {
+      color: #dad7d7;
+      cursor: pointer; }
+      .contact .fa:hover {
+        color: #81D6E3; }
+    .contact p {
+      font-family: 'Raleway', sans-serif;
+      font-size: .4em;
+      position: relative;
+      margin-top: 0.2em;
+      margin-left: -0.2em;
+      animation-play-state: paused;
+      width: 5em; }
+      .contact p:hover {
+        color: #81D6E3;
+        -webkit-animation-duration: 1.5s;
+        animation-play-state: running; }
+    .contact a {
+      color: #dad7d7;
+      text-decoration: none; }
+
+  .divider-2-main {
+    height: .01em;
+    background: #dad7d7;
+    position: relative;
+    margin-top: 0.14em;
+    width: 2em;
+    margin-left: -0.2em; } }
+@media screen and (min-width: 1921px) {
+  .main-header {
+    width: 100%;
+    float: left;
+    min-height: 100vh;
+    position: relative;
+    background: url("../images/macbook.jpeg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-delay: 1.5s; }
+    .main-header .arrow {
+      font-size: 1em;
+      color: #dad7d7;
+      position: absolute;
+      display: block;
+      margin-top: 1em;
+      margin-left: -2em;
+      width: 0em; }
+    .main-header h1 {
+      font-family: 'Raleway', sans-serif;
+      font-size: 3em;
+      color: #dad7d7;
+      margin-top: -8%;
+      position: absolute;
+      width: 7em;
+      padding-left: 7%; }
+    .main-header .divider {
+      height: .06em;
+      background: #dad7d7;
+      position: relative;
+      margin-top: 16%;
+      margin-bottom: -14%;
+      width: 16em;
+      margin-left: 6%; }
+    .main-header h2 {
+      font-family: 'Raleway', sans-serif;
+      font-size: 3em;
+      color: #dad7d7;
+      margin-top: 15%;
+      position: absolute;
+      width: 7em;
+      margin-left: 7%; }
+
+  .contact {
+    width: 100%;
+    float: left;
+    font-size: 4em;
+    color: #dad7d7;
+    position: absolute;
+    display: block;
+    margin-top: 34%;
+    margin-left: 75%;
+    width: 4em;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-delay: 1.5s;
+    text-decoration: none; }
+    .contact .fa {
+      color: #dad7d7;
+      cursor: pointer; }
+      .contact .fa:hover {
+        color: #81D6E3; }
+    .contact p {
+      font-family: 'Raleway', sans-serif;
+      font-size: .4em;
+      position: relative;
+      margin-top: 0.2em;
+      margin-left: -0.2em;
+      animation-play-state: paused;
+      width: 5em; }
+      .contact p:hover {
+        color: #81D6E3;
+        -webkit-animation-duration: 1.5s;
+        animation-play-state: running; }
+    .contact a {
+      color: #dad7d7;
+      text-decoration: none; }
+
+  .divider-2-main {
+    height: .01em;
+    background: #dad7d7;
+    position: relative;
+    margin-top: 0.14em;
+    width: 2em;
+    margin-left: -0.2em; } }
 * {
   box-sizing: border-box; }
 

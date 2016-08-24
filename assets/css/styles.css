@@ -110,7 +110,7 @@ body {
   width: 2em;
   margin-left: -4.5%; }
 
-@media screen and (max-width: 400px) {
+@media screen and (min-width: 300px) and (max-width: 400px) {
   .about-header {
     width: 100%;
     float: left;
@@ -143,7 +143,7 @@ body {
     display: block;
     width: 15em;
     font-size: 1.4em;
-    margin: 19em 0 0em 1em;
+    margin: 19em 0 0em 0.6em;
     background: rgba(218, 215, 215, 0.4);
     border-radius: 1%;
     height: 24em; }
@@ -206,7 +206,8 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 70em; }
+    height: 71em;
+    min-width: 39.3em; }
 
   .about-cover {
     width: 100%;
@@ -218,7 +219,8 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 70em; }
+    height: 71em;
+    min-width: 39em; }
 
   .about-main h1 {
     width: 33.33333%;
@@ -228,7 +230,7 @@ body {
     display: block;
     width: 24em;
     font-size: 1.4em;
-    margin: -26em 0 0em 4em;
+    margin: -26em 0 0em 2em;
     background: rgba(218, 215, 215, 0.4);
     border-radius: 1%;
     height: 51%;
@@ -244,7 +246,7 @@ body {
     box-shadow: 0px 0px 38px -4px rgba(0, 0, 0, 0.75); }
 
   .contact-about {
-    width: 16.66667%;
+    width: 44.44444%;
     float: left;
     font-size: 3.5em;
     color: #dad7d7;
@@ -252,7 +254,6 @@ body {
     display: inline-block;
     margin-top: 8em;
     margin-left: -7.8em;
-    width: 29%;
     -webkit-animation-duration: 3s;
     -webkit-animation-delay: 1.5s;
     text-decoration: none; }
@@ -322,7 +323,7 @@ body {
   .about-main img {
     position: relative;
     height: 29em;
-    margin-left: -34em;
+    margin-left: -32em;
     margin-top: 2em;
     border-radius: 2%;
     -webkit-box-shadow: 0px 0px 38px -4px rgba(0, 0, 0, 0.75);

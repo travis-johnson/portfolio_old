@@ -570,7 +570,8 @@ body {
     -o-background-size: cover;
     background-size: cover;
     -webkit-animation-duration: 3s;
-    -webkit-animation-delay: 1.5s; }
+    -webkit-animation-delay: 1.5s;
+    height: 43em; }
     .main-header .arrow {
       font-size: 1em;
       color: #dad7d7;
@@ -581,28 +582,28 @@ body {
       width: 0em; }
     .main-header h1 {
       font-family: 'Raleway', sans-serif;
-      font-size: 3em;
+      font-size: 4em;
       color: #dad7d7;
-      margin-top: -8%;
+      margin-top: .6em;
       position: absolute;
       width: 7em;
-      padding-left: 7%; }
+      margin-left: 0em; }
     .main-header .divider {
       height: .06em;
       background: #dad7d7;
-      position: relative;
-      margin-top: 16%;
-      margin-bottom: -14%;
+      position: absolute;
+      margin-top: 11em;
+      margin-bottom: 1%;
       width: 16em;
       margin-left: 6%; }
     .main-header h2 {
       font-family: 'Raleway', sans-serif;
-      font-size: 3em;
+      font-size: 4em;
       color: #dad7d7;
-      margin-top: 15%;
+      margin-top: 3em;
       position: absolute;
       width: 7em;
-      margin-left: 7%; }
+      margin-left: 0.65em; }
 
   .contact {
     width: 100%;
@@ -611,9 +612,9 @@ body {
     color: #dad7d7;
     position: absolute;
     display: block;
-    margin-top: 34%;
-    margin-left: 75%;
-    width: 4em;
+    margin-top: 6em;
+    margin-left: 5.8em;
+    width: 3.5em;
     -webkit-animation-duration: 3s;
     -webkit-animation-delay: 1.5s;
     text-decoration: none; }
@@ -628,8 +629,7 @@ body {
       position: relative;
       margin-top: 0.2em;
       margin-left: -0.2em;
-      animation-play-state: paused;
-      width: 5em; }
+      animation-play-state: paused; }
       .contact p:hover {
         color: #81D6E3;
         -webkit-animation-duration: 1.5s;
@@ -642,9 +642,7 @@ body {
     height: .01em;
     background: #dad7d7;
     position: relative;
-    margin-top: 0.14em;
-    width: 2em;
-    margin-left: -0.2em; } }
+    width: 2em; } }
 @media screen and (min-width: 721px) and (max-width: 1280px) {
   .main-header {
     width: 100%;
@@ -785,9 +783,9 @@ body {
     color: #dad7d7;
     position: absolute;
     display: block;
-    margin-top: 34%;
-    margin-left: 75%;
-    width: 4em;
+    margin-top: 6em;
+    margin-left: 17em;
+    /* width: 4em; */
     -webkit-animation-duration: 3s;
     -webkit-animation-delay: 1.5s;
     text-decoration: none; }
@@ -1010,7 +1008,7 @@ body {
 .pf-header {
   width: 100%;
   float: left;
-  min-height: 100vh;
+  min-height: 55em;
   position: absolute;
   background: url("../images/macbook.jpeg");
   -webkit-background-size: cover;
@@ -1021,7 +1019,7 @@ body {
 .pf-cover {
   width: 100%;
   float: left;
-  min-height: 100vh;
+  min-height: 55em;
   position: relative;
   background: rgba(181, 173, 173, 0.74);
   -webkit-background-size: cover;
@@ -1033,10 +1031,10 @@ body {
   width: 72.22222%;
   float: left; }
   #pf-main .project1 img {
-    position: absolute;
-    display: block;
+    position: relative;
+    display: inline-block;
     height: 18em;
-    margin: 1% 0% 0% 11%;
+    margin: 1em -6em -19em 10em;
     -webkit-box-shadow: 0px 0px 38px -4px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 0px 38px -4px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 0px 38px -4px rgba(0, 0, 0, 0.75); }
@@ -1045,9 +1043,9 @@ body {
     position: absolute;
     font-family: 'Raleway', sans-serif;
     font-size: 1.3em;
-    width: 44%;
-    margin: 3% 2% 2% 27.5%;
-    height: 29.4%;
+    width: 30em;
+    margin: 2em 0em 0em 10em;
+    height: 11em;
     background: rgba(218, 215, 215, 0.4);
     border-radius: 1%;
     display: inline-flex; }
@@ -1059,10 +1057,10 @@ body {
   #pf-main .project2 {
     column-count: 1; }
     #pf-main .project2 img {
-      position: absolute;
-      display: block;
+      position: relative;
+      display: inline-block;
       height: 18em;
-      margin: 27.5% 0% 0% 11%;
+      margin: 23.5em -6em 1em 10em;
       -webkit-box-shadow: 0px 0px 38px -4px rgba(0, 0, 0, 0.75);
       -moz-box-shadow: 0px 0px 38px -4px rgba(0, 0, 0, 0.75);
       box-shadow: 0px 0px 38px -4px rgba(0, 0, 0, 0.75); }
@@ -1071,7 +1069,7 @@ body {
       font-family: 'Raleway', sans-serif;
       font-size: 1.3em;
       width: 30em;
-      margin: 26% 0% 0% 27.4%;
+      margin: 18em 0em 0em 10em;
       height: 38%;
       background: rgba(218, 215, 215, 0.4);
       border-radius: 1%;
@@ -1088,8 +1086,8 @@ body {
   font-size: 3.5em;
   color: #dad7d7;
   position: absolute;
-  margin-top: 38.6%;
-  margin-left: 79%;
+  margin-top: 13em;
+  margin-left: 20em;
   /* width: 7em; */
   -webkit-animation-duration: 3s;
   -webkit-animation-delay: 1.5s;
@@ -1123,5 +1121,605 @@ body {
   margin-top: 0.2em;
   width: 2em;
   margin-left: 1em; }
+
+@media screen and (max-width: 400px) {
+  .pf-header {
+    width: 100%;
+    float: left;
+    min-height: 100vh;
+    position: absolute;
+    background: url("../images/macbook.jpeg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 114em;
+    min-width: 46em; }
+
+  .pf-cover {
+    width: 100%;
+    float: left;
+    min-height: 100vh;
+    position: relative;
+    background: rgba(181, 173, 173, 0.74);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 114em;
+    min-width: 46em; }
+
+  #pf-main {
+    width: 72.22222%;
+    float: left; }
+    #pf-main .project1 img {
+      position: absolute;
+      display: block;
+      height: 25em;
+      margin: 2em -60em 6em 15em;
+      -webkit-box-shadow: 0px 0px 38px -4px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 0px 0px 38px -4px rgba(0, 0, 0, 0.75);
+      box-shadow: 0px 0px 38px -4px rgba(0, 0, 0, 0.75); }
+    #pf-main .project1 p {
+      column-count: 1;
+      position: absolute;
+      font-family: 'Raleway', sans-serif;
+      font-size: 1.3em;
+      width: 27em;
+      margin: 21em 0em 0em 4.5em;
+      height: 14em;
+      background: rgba(218, 215, 215, 0.4);
+      border-radius: 1%;
+      display: inline-flex; }
+    #pf-main .project1 h1 {
+      position: absolute;
+      font-family: 'Raleway', sans-serif;
+      font-size: 0.9em;
+      margin: 14% 4% 5% 27.5%; }
+    #pf-main .project2 {
+      column-count: 1; }
+      #pf-main .project2 img {
+        position: absolute;
+        display: block;
+        height: 25em;
+        margin: 46.5em 0em 0em 15em;
+        -webkit-box-shadow: 0px 0px 38px -4px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 0px 38px -4px rgba(0, 0, 0, 0.75);
+        box-shadow: 0px 0px 38px -4px rgba(0, 0, 0, 0.75); }
+      #pf-main .project2 p {
+        position: absolute;
+        font-family: 'Raleway', sans-serif;
+        font-size: 1.3em;
+        width: 30em;
+        margin: 56em 0em 0em 3em;
+        height: 16em;
+        background: rgba(218, 215, 215, 0.4);
+        border-radius: 1%;
+        display: inline-flex; }
+      #pf-main .project2 h1 {
+        position: absolute;
+        font-family: 'Raleway', sans-serif;
+        font-size: 0.9em;
+        margin: 41% 0% 0% 28.6%; }
+
+  .contact-pf {
+    width: 72.22222%;
+    float: left;
+    font-size: 4.5em;
+    color: #dad7d7;
+    position: absolute;
+    margin-top: 21.5em;
+    margin-left: 3.5em;
+    min-width: 6em;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-delay: 1.5s;
+    text-decoration: none; }
+    .contact-pf .fa {
+      color: #dad7d7;
+      cursor: pointer;
+      position: relative; }
+      .contact-pf .fa:hover {
+        color: #81D6E3; }
+    .contact-pf p {
+      font-family: 'Raleway', sans-serif;
+      font-size: .4em;
+      position: relative;
+      margin-top: 0.4em;
+      margin-left: 0.3em;
+      animation-play-state: paused;
+      width: 5em; }
+      .contact-pf p:hover {
+        color: #81D6E3;
+        -webkit-animation-duration: 1.5s;
+        animation-play-state: running; }
+    .contact-pf a {
+      color: #dad7d7;
+      text-decoration: none; }
+
+  .divider-2 {
+    height: .01em;
+    background: #dad7d7;
+    position: relative;
+    margin-top: 0.2em;
+    width: 2em;
+    margin-left: 0em; } }
+@media screen and (min-width: 401px) and (max-width: 720px) {
+  .pf-header {
+    width: 100%;
+    float: left;
+    min-height: 100vh;
+    position: absolute;
+    background: url("../images/macbook.jpeg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 80em;
+    min-width: 65em; }
+
+  .pf-cover {
+    width: 100%;
+    float: left;
+    min-height: 100vh;
+    position: relative;
+    background: rgba(181, 173, 173, 0.74);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 80em;
+    min-width: 65em; }
+
+  #pf-main {
+    width: 72.22222%;
+    float: left; }
+    #pf-main .project1 img {
+      position: relative;
+      display: inline-block;
+      height: 25em;
+      margin: 1.4em -1em -25em 2em;
+      -webkit-box-shadow: 0px 0px 38px -4px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 0px 0px 38px -4px rgba(0, 0, 0, 0.75);
+      box-shadow: 0px 0px 38px -4px rgba(0, 0, 0, 0.75); }
+    #pf-main .project1 p {
+      column-count: 1;
+      position: absolute;
+      font-family: 'Raleway', sans-serif;
+      font-size: 1.3em;
+      width: 21.9em;
+      margin: 1em 0 0 9.5em;
+      height: 19em;
+      background: rgba(218, 215, 215, 0.4);
+      border-radius: 1%;
+      display: inline-flex; }
+    #pf-main .project1 h1 {
+      position: absolute;
+      font-family: 'Raleway', sans-serif;
+      font-size: 0.9em;
+      margin: 14% 4% 5% 27.5%; }
+    #pf-main .project2 {
+      column-count: 1; }
+      #pf-main .project2 img {
+        position: relative;
+        display: inline-block;
+        height: 25em;
+        margin: 28.5em -1em -51em 2em;
+        -webkit-box-shadow: 0px 0px 38px -4px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 0px 38px -4px rgba(0, 0, 0, 0.75);
+        box-shadow: 0px 0px 38px -4px rgba(0, 0, 0, 0.75); }
+      #pf-main .project2 p {
+        position: absolute;
+        font-family: 'Raleway', sans-serif;
+        font-size: 1.3em;
+        width: 22em;
+        margin: 21em 0em 0em 2.4em;
+        height: 21em;
+        background: rgba(218, 215, 215, 0.4);
+        border-radius: 1%;
+        display: inline-flex; }
+      #pf-main .project2 h1 {
+        position: absolute;
+        font-family: 'Raleway', sans-serif;
+        font-size: 0.9em;
+        margin: 41% 0% 0% 28.6%; }
+
+  .contact-pf {
+    width: 16.66667%;
+    float: left;
+    font-size: 3.5em;
+    color: #dad7d7;
+    position: absolute;
+    margin-top: 16.6em;
+    margin-left: 1em;
+    min-width: 7em;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-delay: 1.5s;
+    text-decoration: none; }
+    .contact-pf .fa {
+      color: #dad7d7;
+      cursor: pointer;
+      position: relative; }
+      .contact-pf .fa:hover {
+        color: #81D6E3; }
+    .contact-pf p {
+      font-family: 'Raleway', sans-serif;
+      font-size: .4em;
+      position: relative;
+      margin-top: 0.6em;
+      margin-left: -0.2em;
+      animation-play-state: paused;
+      width: 5em;
+      line-height: 0.7; }
+      .contact-pf p:hover {
+        color: #81D6E3;
+        -webkit-animation-duration: 1.5s;
+        animation-play-state: running; }
+    .contact-pf a {
+      color: #dad7d7;
+      text-decoration: none; }
+
+  .divider-2 {
+    height: .01em;
+    background: #dad7d7;
+    position: relative;
+    margin-top: 0.2em;
+    width: 2em;
+    margin-left: -0.2em; } }
+@media screen and (min-width: 721px) and (max-width: 1280px) {
+  .pf-header {
+    width: 100%;
+    float: left;
+    min-height: 100vh;
+    position: absolute;
+    background: url("../images/macbook.jpeg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 74em;
+    min-width: 107.5em; }
+
+  .pf-cover {
+    width: 100%;
+    float: left;
+    min-height: 100vh;
+    position: relative;
+    background: rgba(181, 173, 173, 0.74);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 74em;
+    min-width: 107.5em; }
+
+  #pf-main {
+    width: 72.22222%;
+    float: left; }
+    #pf-main .project1 img {
+      position: relative;
+      display: inline-block;
+      height: 27em;
+      margin: 1em -1em -26em 2em;
+      -webkit-box-shadow: 0px 0px 38px -4px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 0px 0px 38px -4px rgba(0, 0, 0, 0.75);
+      box-shadow: 0px 0px 38px -4px rgba(0, 0, 0, 0.75); }
+    #pf-main .project1 p {
+      column-count: 1;
+      position: absolute;
+      font-family: 'Raleway', sans-serif;
+      font-size: 1.3em;
+      width: 39em;
+      margin: 3em 0em 0em 6.5em;
+      height: 12em;
+      background: rgba(218, 215, 215, 0.4);
+      border-radius: 1%;
+      display: inline-flex; }
+    #pf-main .project1 h1 {
+      position: absolute;
+      font-family: 'Raleway', sans-serif;
+      font-size: 0.9em;
+      margin: 14% 4% 5% 27.5%; }
+    #pf-main .project2 {
+      column-count: 1; }
+      #pf-main .project2 img {
+        position: relative;
+        display: inline-block;
+        height: 27em;
+        margin: 29.25em -1em -57em 2em;
+        -webkit-box-shadow: 0px 0px 38px -4px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 0px 38px -4px rgba(0, 0, 0, 0.75);
+        box-shadow: 0px 0px 38px -4px rgba(0, 0, 0, 0.75); }
+      #pf-main .project2 p {
+        position: absolute;
+        font-family: 'Raleway', sans-serif;
+        font-size: 1.3em;
+        width: 39em;
+        margin: 25.4em 0em 0em 6.4em;
+        height: 14em;
+        background: rgba(218, 215, 215, 0.4);
+        border-radius: 1%;
+        display: inline-flex; }
+      #pf-main .project2 h1 {
+        position: absolute;
+        font-family: 'Raleway', sans-serif;
+        font-size: 0.9em;
+        margin: 41% 0% 0% 28.6%; }
+
+  .contact-pf {
+    width: 16.66667%;
+    float: left;
+    font-size: 3.5em;
+    color: #dad7d7;
+    position: absolute;
+    margin-top: 18em;
+    margin-left: 0.75em;
+    min-width: 6em;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-delay: 1.5s;
+    text-decoration: none; }
+    .contact-pf .fa {
+      color: #dad7d7;
+      cursor: pointer;
+      position: relative; }
+      .contact-pf .fa:hover {
+        color: #81D6E3; }
+    .contact-pf p {
+      font-family: 'Raleway', sans-serif;
+      font-size: .4em;
+      position: relative;
+      margin-top: 0.4em;
+      margin-left: 2.8em;
+      animation-play-state: paused;
+      width: 5em;
+      line-height: .4; }
+      .contact-pf p:hover {
+        color: #81D6E3;
+        -webkit-animation-duration: 1.5s;
+        animation-play-state: running; }
+    .contact-pf a {
+      color: #dad7d7;
+      text-decoration: none; }
+
+  .divider-2 {
+    height: .01em;
+    background: #dad7d7;
+    position: relative;
+    margin-top: 0.2em;
+    width: 2em;
+    margin-left: 1em; } }
+@media screen and (min-width: 1281px) and (max-width: 1440px) {
+  .pf-header {
+    width: 100%;
+    float: left;
+    min-height: 55em;
+    position: absolute;
+    background: url("../images/macbook.jpeg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; }
+
+  .pf-cover {
+    width: 100%;
+    float: left;
+    min-height: 55em;
+    position: relative;
+    background: rgba(181, 173, 173, 0.74);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; }
+
+  #pf-main {
+    width: 72.22222%;
+    float: left; }
+    #pf-main .project1 img {
+      position: relative;
+      display: inline-block;
+      height: 18em;
+      margin: 1em -6em -19em 10em;
+      -webkit-box-shadow: 0px 0px 38px -4px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 0px 0px 38px -4px rgba(0, 0, 0, 0.75);
+      box-shadow: 0px 0px 38px -4px rgba(0, 0, 0, 0.75); }
+    #pf-main .project1 p {
+      column-count: 1;
+      position: absolute;
+      font-family: 'Raleway', sans-serif;
+      font-size: 1.3em;
+      width: 30em;
+      margin: 2em 0em 0em 10em;
+      height: 11em;
+      background: rgba(218, 215, 215, 0.4);
+      border-radius: 1%;
+      display: inline-flex; }
+    #pf-main .project1 h1 {
+      position: absolute;
+      font-family: 'Raleway', sans-serif;
+      font-size: 0.9em;
+      margin: 14% 4% 5% 27.5%; }
+    #pf-main .project2 {
+      column-count: 1; }
+      #pf-main .project2 img {
+        position: relative;
+        display: inline-block;
+        height: 18em;
+        margin: 23.5em -6em 1em 10em;
+        -webkit-box-shadow: 0px 0px 38px -4px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 0px 38px -4px rgba(0, 0, 0, 0.75);
+        box-shadow: 0px 0px 38px -4px rgba(0, 0, 0, 0.75); }
+      #pf-main .project2 p {
+        position: absolute;
+        font-family: 'Raleway', sans-serif;
+        font-size: 1.3em;
+        width: 30em;
+        margin: 18em 0em 0em 10em;
+        height: 38%;
+        background: rgba(218, 215, 215, 0.4);
+        border-radius: 1%;
+        display: inline-flex; }
+      #pf-main .project2 h1 {
+        position: absolute;
+        font-family: 'Raleway', sans-serif;
+        font-size: 0.9em;
+        margin: 41% 0% 0% 28.6%; }
+
+  .contact-pf {
+    width: 16.66667%;
+    float: left;
+    font-size: 3.5em;
+    color: #dad7d7;
+    position: absolute;
+    margin-top: 13em;
+    margin-left: 20em;
+    /* width: 7em; */
+    -webkit-animation-duration: 3s;
+    -webkit-animation-delay: 1.5s;
+    text-decoration: none; }
+    .contact-pf .fa {
+      color: #dad7d7;
+      cursor: pointer;
+      position: relative; }
+      .contact-pf .fa:hover {
+        color: #81D6E3; }
+    .contact-pf p {
+      font-family: 'Raleway', sans-serif;
+      font-size: .4em;
+      position: relative;
+      margin-top: 0.4em;
+      margin-left: 2.8em;
+      animation-play-state: paused;
+      width: 5em; }
+      .contact-pf p:hover {
+        color: #81D6E3;
+        -webkit-animation-duration: 1.5s;
+        animation-play-state: running; }
+    .contact-pf a {
+      color: #dad7d7;
+      text-decoration: none; }
+
+  .divider-2 {
+    height: .01em;
+    background: #dad7d7;
+    position: relative;
+    margin-top: 0.2em;
+    width: 2em;
+    margin-left: 1em; } }
+@media screen and (min-width: 1441px) {
+  .pf-header {
+    width: 100%;
+    float: left;
+    min-height: 55em;
+    position: absolute;
+    background: url("../images/macbook.jpeg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; }
+
+  .pf-cover {
+    width: 100%;
+    float: left;
+    min-height: 55em;
+    position: relative;
+    background: rgba(181, 173, 173, 0.74);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; }
+
+  #pf-main {
+    width: 72.22222%;
+    float: left; }
+    #pf-main .project1 img {
+      position: relative;
+      display: inline-block;
+      height: 18em;
+      margin: 1em -6em -19em 10em;
+      -webkit-box-shadow: 0px 0px 38px -4px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 0px 0px 38px -4px rgba(0, 0, 0, 0.75);
+      box-shadow: 0px 0px 38px -4px rgba(0, 0, 0, 0.75); }
+    #pf-main .project1 p {
+      column-count: 1;
+      position: absolute;
+      font-family: 'Raleway', sans-serif;
+      font-size: 1.3em;
+      width: 30em;
+      margin: 2em 0em 0em 10em;
+      height: 11em;
+      background: rgba(218, 215, 215, 0.4);
+      border-radius: 1%;
+      display: inline-flex; }
+    #pf-main .project1 h1 {
+      position: absolute;
+      font-family: 'Raleway', sans-serif;
+      font-size: 0.9em;
+      margin: 14% 4% 5% 27.5%; }
+    #pf-main .project2 {
+      column-count: 1; }
+      #pf-main .project2 img {
+        position: relative;
+        display: inline-block;
+        height: 18em;
+        margin: 23.5em -6em 1em 10em;
+        -webkit-box-shadow: 0px 0px 38px -4px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 0px 38px -4px rgba(0, 0, 0, 0.75);
+        box-shadow: 0px 0px 38px -4px rgba(0, 0, 0, 0.75); }
+      #pf-main .project2 p {
+        position: absolute;
+        font-family: 'Raleway', sans-serif;
+        font-size: 1.3em;
+        width: 30em;
+        margin: 18em 0em 0em 10em;
+        height: 38%;
+        background: rgba(218, 215, 215, 0.4);
+        border-radius: 1%;
+        display: inline-flex; }
+      #pf-main .project2 h1 {
+        position: absolute;
+        font-family: 'Raleway', sans-serif;
+        font-size: 0.9em;
+        margin: 41% 0% 0% 28.6%; }
+
+  .contact-pf {
+    width: 16.66667%;
+    float: left;
+    font-size: 3.5em;
+    color: #dad7d7;
+    position: absolute;
+    margin-top: 13em;
+    margin-left: 20em;
+    /* width: 7em; */
+    -webkit-animation-duration: 3s;
+    -webkit-animation-delay: 1.5s;
+    text-decoration: none; }
+    .contact-pf .fa {
+      color: #dad7d7;
+      cursor: pointer;
+      position: relative; }
+      .contact-pf .fa:hover {
+        color: #81D6E3; }
+    .contact-pf p {
+      font-family: 'Raleway', sans-serif;
+      font-size: .4em;
+      position: relative;
+      margin-top: 0.4em;
+      margin-left: 2.8em;
+      animation-play-state: paused;
+      width: 5em; }
+      .contact-pf p:hover {
+        color: #81D6E3;
+        -webkit-animation-duration: 1.5s;
+        animation-play-state: running; }
+    .contact-pf a {
+      color: #dad7d7;
+      text-decoration: none; }
+
+  .divider-2 {
+    height: .01em;
+    background: #dad7d7;
+    position: relative;
+    margin-top: 0.2em;
+    width: 2em;
+    margin-left: 1em; } }
 
 /*# sourceMappingURL=styles.css.map */

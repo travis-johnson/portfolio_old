@@ -249,6 +249,7 @@ $susy: (
         // margin-bottom: 9em;
         -webkit-animation-duration: 3s;
         -webkit-animation-delay: 1.5s;
+        height: 43em;
 
           .arrow{
 
@@ -264,31 +265,32 @@ $susy: (
 
       h1{
         font-family: 'Raleway', sans-serif;
-        font-size: 3em;
+        font-size: 4em;
         color: #dad7d7;
-        margin-top: -8%;
+        margin-top: .6em;
         position: absolute;
         width: 7em;
-        padding-left: 7%;
+        margin-left: 0em;
+
 
     }
     .divider{
       height: .06em;
       background: #dad7d7;
-      position: relative;
-      margin-top: 16%;
-      margin-bottom: -14%;
+      position: absolute;
+      margin-top: 11em;
+      margin-bottom: 1%;
       width: 16em;
       margin-left: 6%;
     }
       h2{
         font-family: 'Raleway', sans-serif;
-        font-size: 3em;
+        font-size: 4em;
         color: #dad7d7;
-        margin-top: 15%;
+        margin-top: 3em;
         position: absolute;
         width: 7em;
-        margin-left: 7%;
+        margin-left: 0.65em;
       }
     }
 
@@ -298,9 +300,9 @@ $susy: (
       color: #dad7d7;
       position: absolute;
       display: block;
-      margin-top: 34%;
-      margin-left: 75%;
-      width: 4em;
+      margin-top: 6em;
+      margin-left: 5.8em;
+      width: 3.5em;
       -webkit-animation-duration: 3s;
       -webkit-animation-delay: 1.5s;
       text-decoration: none;
@@ -320,7 +322,7 @@ $susy: (
         margin-top: 0.2em;
         margin-left: -0.2em;
         animation-play-state: paused;
-        width: 5em;
+        // width: 5em;
         &:hover{
           color: #81D6E3;
           -webkit-animation-duration: 1.5s;
@@ -339,9 +341,9 @@ $susy: (
       height: .01em;
       background: #dad7d7;
       position: relative;
-      margin-top: 0.14em;
+      // margin-top: 0.14em;
       width: 2em;
-      margin-left: -0.2em;
+      // margin-left: -0.2em;
     }
 }
 
@@ -516,9 +518,9 @@ $susy: (
       color: #dad7d7;
       position: absolute;
       display: block;
-      margin-top: 34%;
-      margin-left: 75%;
-      width: 4em;
+      margin-top: 6em;
+      margin-left: 17em;
+      /* width: 4em; */
       -webkit-animation-duration: 3s;
       -webkit-animation-delay: 1.5s;
       text-decoration: none;
